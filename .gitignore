@@ -1,0 +1,33 @@
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Laravel
+pfms-backend/vendor/
+pfms-backend/storage/logs/
+pfms-backend/storage/framework/cache/
+pfms-backend/storage/framework/sessions/
+pfms-backend/storage/framework/views/
+pfms-backend/bootstrap/cache/
+
+# Database files and backups
+*.sqlite
+*.sqlite3
+*.sql
+pfms-backend/storage/app/backups/
+
+# Flutter
+mobile/.dart_tool/
+mobile/build/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db

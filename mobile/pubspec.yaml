@@ -1,0 +1,28 @@
+name: pfms_mobile
+description: Personal Finance Management System — mobile app (Sprint 1 & 2)
+publish_to: 'none'
+version: 0.2.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.5.0
+  shared_preferences: ^2.5.3
+  provider: ^6.1.5
+  intl: ^0.19.0
+  fl_chart: ^0.69.0
+  path_provider: ^2.1.4
+  open_filex: ^4.5.0
+  pdf: ^3.11.3
+  printing: ^5.14.3
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
